@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Environments
+env/
+venv/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset files (YOU NEVER TRACK DATA IN GIT)
+data/raw/
+data/processed/
+data/cleaned/
+
+# Logs
+logs/
+
+# Temporary scripts output
+*.log
+
+# IDE settings
+.idea/
+.vscode/
