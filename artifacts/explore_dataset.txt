@@ -1,0 +1,153 @@
+==== DATASET METADATA ====
+Rows: 891
+Columns: 12
+
+==== COLUMN SUMMARY ====
+
+Column: PassengerId
+  Type: int64
+  Missing: 0
+  Unique Values: 891
+
+Column: Survived
+  Type: int64
+  Missing: 0
+  Unique Values: 2
+
+Column: Pclass
+  Type: int64
+  Missing: 0
+  Unique Values: 3
+
+Column: Name
+  Type: object
+  Missing: 0
+  Unique Values: 891
+
+Column: Sex
+  Type: object
+  Missing: 0
+  Unique Values: 2
+
+Column: Age
+  Type: float64
+  Missing: 177
+  Unique Values: 89
+
+Column: SibSp
+  Type: int64
+  Missing: 0
+  Unique Values: 7
+
+Column: Parch
+  Type: int64
+  Missing: 0
+  Unique Values: 7
+
+Column: Ticket
+  Type: object
+  Missing: 0
+  Unique Values: 681
+
+Column: Fare
+  Type: float64
+  Missing: 0
+  Unique Values: 248
+
+Column: Cabin
+  Type: object
+  Missing: 687
+  Unique Values: 148
+
+Column: Embarked
+  Type: object
+  Missing: 2
+  Unique Values: 4
+
+==== NUMERICAL SUMMARY ====
+
+Column: PassengerId
+  Min: 1
+  Max: 891
+  Mean: 446.00
+  Std Dev: 257.21
+
+Column: Survived
+  Min: 0
+  Max: 1
+  Mean: 0.38
+  Std Dev: 0.49
+
+Column: Pclass
+  Min: 1
+  Max: 3
+  Mean: 2.31
+  Std Dev: 0.84
+
+Column: Age
+  Min: 0.42
+  Max: 80.0
+  Mean: 29.70
+  Std Dev: 14.52
+
+Column: SibSp
+  Min: 0
+  Max: 8
+  Mean: 0.52
+  Std Dev: 1.10
+
+Column: Parch
+  Min: 0
+  Max: 6
+  Mean: 0.38
+  Std Dev: 0.81
+
+Column: Fare
+  Min: 0.0
+  Max: 512.3292
+  Mean: 32.20
+  Std Dev: 49.67
+
+==== CATEGORICAL SUMMARY ====
+
+Column: Name
+  Unique Values: 891
+  Top Values:
+    Dooley, Mr. Patrick: 1
+    Braund, Mr. Owen Harris: 1
+    Cumings, Mrs. John Bradley (Florence Briggs Thayer): 1
+
+Column: Sex
+  Unique Values: 2
+  Top Values:
+    male: 577
+    female: 314
+
+Column: Ticket
+  Unique Values: 681
+  Top Values:
+    347082: 7
+    1601: 7
+    CA. 2343: 7
+
+Column: Cabin
+  Unique Values: 148
+  Top Values:
+    G6: 4
+    C23 C25 C27: 4
+    B96 B98: 4
+
+Column: Embarked
+  Unique Values: 4
+  Top Values:
+    S: 644
+    C: 168
+    Q: 77
+
+==== SAMPLE ROWS (HEAD) ====
+   PassengerId  Survived  Pclass                                                 Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
+0            1         0       3                              Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Thayer)  female  38.0      1      0          PC 17599  71.2833   C85        C
+2            3         1       3                               Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3101282   7.9250   NaN        S
+3            4         1       1         Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0            113803  53.1000  C123        S
+4            5         0       3                             Allen, Mr. William Henry    male  35.0      0      0            373450   8.0500   NaN        S
