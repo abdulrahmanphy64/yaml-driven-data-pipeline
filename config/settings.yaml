@@ -1,0 +1,26 @@
+missing_values:
+  strategy:
+    Age: median
+    Embarked: mode
+
+drop_columns:
+  - Cabin
+  - Ticket
+  - Name
+
+encoding:
+  strategy:
+    Sex: label
+    Embarked: onehot
+    Pclass: onehot
+
+scaling:
+  strategy:
+    Age: standard
+    Fare: standard
+
+target_column: Survived
+
+validation:
+  drop_duplicates: true
+  enforce_schema: false
