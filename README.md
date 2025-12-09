@@ -193,6 +193,4 @@ pip install -r requirements.txt
 
 **Abdul Rahman Shaikh**
 
----
 
-If you want, I can also generate a **project logo**, **badges**, or a **more advanced README** that looks like a production ML repo.
