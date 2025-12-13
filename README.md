@@ -1,7 +1,3 @@
-Here’s a **clean, professional, no-bullshit README** for your repo.
-It’s structured exactly the way real ML engineers write production-grade documentation.
-
----
 
 # **YAML-Driven Data Pipeline (DPS)**
 
